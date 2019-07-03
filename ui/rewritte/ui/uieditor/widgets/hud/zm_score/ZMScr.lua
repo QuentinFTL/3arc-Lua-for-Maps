@@ -1,6 +1,6 @@
-require("ui.uieditor.widgets.HUD.ZM_Score.ZMScr_ListingLg")
-require("ui.uieditor.widgets.HUD.ZM_Score.ZMScr_ListingSm")
-require("ui.uieditor.widgets.HUD.ZM_Score.ZMScr_PlusPointsContainer")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Score.ZMScr_ListingLg")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Score.ZMScr_ListingSm")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Score.ZMScr_PlusPointsContainer")
 
 
 local function getPlayList(InstanceRef)
