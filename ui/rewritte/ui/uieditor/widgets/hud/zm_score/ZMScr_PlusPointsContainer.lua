@@ -1,4 +1,4 @@
-require("ui.uieditor.widgets.HUD.ZM_Score.ZMScr_PlusPoints")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Score.ZMScr_PlusPoints")
 
 CoD.ZMScr_PlusPointsContainer = InheritFrom(LUI.UIElement)
 
