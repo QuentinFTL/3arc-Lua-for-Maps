@@ -1,4 +1,4 @@
-require("ui.uieditor.widgets.HUD.ZM_Perks.PerkListItemFactory")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Perks.PerkListItemFactory")
 local perkListBase = {
     additional_primary_weapon = "specialty_giant_three_guns_zombies",
     dead_shot = "specialty_giant_ads_zombies",
