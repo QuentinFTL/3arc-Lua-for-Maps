@@ -1,4 +1,4 @@
-require("ui.uieditor.widgets.HUD.ZM_AmmoWidgetFactory.ZmAmmoFactory")
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_AmmoWidgetFactory.ZmAmmoFactory")
 
 CoD.ZmAmmoContainerFactory = InheritFrom(LUI.UIElement)
 
