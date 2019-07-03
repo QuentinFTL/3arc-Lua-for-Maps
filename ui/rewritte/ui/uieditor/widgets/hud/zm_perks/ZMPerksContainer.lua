@@ -1,3 +1,4 @@
+require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Perks.PerkListItem")
 local table0 = {
     additional_primary_weapon = "specialty_three_guns_zombies",
     dead_shot = "specialty_ads_zombies",
