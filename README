@@ -1,1 +1,40 @@
+To add theses files in your map, drag n' drop in your <bo3 root>/share/raw folder, or usermaps/your_mapname folder,
+in your .zone, add :
+  rawfile,<file path>/<file>.lua
+  
+in your hud.lua :
+  require("<file path with '.' replacing '/'>.<file>")
 
+Examples :
+  zone:
+    rawfile,ui/rewritte/ui/uieditor/widgets/hud/zm_perks/PerkListItem.lua
+    rawfile,ui/rewritte/ui/uieditor/widgets/hud/zm_perks/PerkListItemFactory.lua
+    rawfile,ui/rewritte/ui/uieditor/widgets/hud/zm_perks/ZMPerksContainer.lua
+    rawfile,ui/rewritte/ui/uieditor/widgets/hud/zm_perks/ZMPerksContainerFactory.lua
+    
+  Lua:
+    require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Perks.ZMPerksContainerFactory")
+    require("ui.rewritte.ui.uieditor.widgets.HUD.ZM_Perks.ZMPerksContainer")
+    --others files are in theses files.
+
+Done :
+  - Perks :
+      - PerkListItem.lua
+      - PerkListItemFactory.lua
+      - ZMPerksContainer.lua
+      - ZMPerksContainerFactory.lua
+  - ZMScore :
+      - ZMScr_ListingLg.lua
+      - ZMScr_PlusPointsContainer.lua
+      - ZMScr.lua
+      - ZMScr_ListingSm.lua
+      - ZMScr_PlusPoints.lua
+  - RoundWidget :
+      - ZmRndContainer.lua
+      - ZmRnd.lua
+      - ZmRndDigits.lua
+      - ZmRndDigitsInt.lua
+      - 
+  -
+  -
+  -
